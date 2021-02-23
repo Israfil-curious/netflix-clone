@@ -1,0 +1,46 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  justify-content: space-between;
+  z-index: 1;
+
+  /* Animation */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_black {
+  background-color: #111;
+}
+.nav_logo {
+  width: 100px;
+  object-fit: contain;
+  position: fixed;
+  left: 20px;
+}
+.nav_avatar {
+  width: 30px;
+  object-fit: contain;
+  position: fixed;
+  right: 20px;
+}
+.light_dark_button {
+  color: #fff;
+  background-color: rgba(1, 1, 1, 0.5);
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  font-weight: 700;
+  position: fixed;
+  left: 50%;
+
+  transition: all 0.4s;
+}
+
+.light_dark_button:hover {
+  background-color: #fff;
+  color: #111;
+}
